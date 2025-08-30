@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rory Mansell — Portfolio</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; padding: 2rem; line-height: 1.5; }
+    .wrap { max-width: 900px; margin: 0 auto; }
+    header { margin-bottom: 2rem; }
+    h1 { margin: 0 0 .25rem; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 1rem; }
+    .card { border: 1px solid #e5e7eb; border-radius: 12px; padding: 1rem; }
+    .card h3 { margin: .25rem 0 .5rem; }
+    .muted { color: #6b7280; }
+    a { color: #2563eb; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer { margin-top: 2rem; color: #6b7280; font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Rory Mansell</h1>
+      <p class="muted">ML PhD • Python & Automation • Building practical data tools</p>
+      <p>
+        <a href="https://github.com/roryMansell">GitHub</a> ·
+        <a href="mailto:rory.calum.mansell@outlook.com">Email</a> ·
+        <a href="https://www.linkedin.com/">LinkedIn</a>
+      </p>
+    </header>
+
+    <h2>Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Mini ETL Dashboard</h3>
+        <p class="muted">ETL → Streamlit dashboard with filters, charts, and CSV upload.</p>
+        <p>
+          <a href="https://mini-etl-9js3fjw8g4ayb99fvaha8m.streamlit.app/">Live demo</a> ·
+          <a href="https://github.com/roryMansell/mini-etl">Code</a>
+        </p>
+      </div>
+      <!-- Duplicate this card for new projects -->
+    </div>
+
+    <footer>© <span id="y"></span> Rory Mansell</footer>
+  </div>
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body>
+</html>
