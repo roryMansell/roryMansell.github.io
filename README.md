@@ -16,7 +16,9 @@ This is my portfolio landing page, hosted with GitHub Pages:
 
 - **Voice Pokédex** — Offline Pokédex app with voice search, type matchups, and a team ranking system.  
   Built with HTML/JS, packaged as a desktop app with Electron.  
-  🔗 [Download (latest release)](https://github.com/roryMansell/po-go-battle-assistant/releases/latest) · [Code](https://github.com/roryMansell/po-go-battle-assistant)
+  🔗 [Installer](https://github.com/roryMansell/po-go-battle-assistant/releases/latest/download/Voice.Pokedex.Setup.1.0.0.exe) · 
+  [Portable](https://github.com/roryMansell/po-go-battle-assistant/releases/latest/download/VoicePokedex-win64.zip) · 
+  [Code](https://github.com/roryMansell/po-go-battle-assistant)
 
 ---
 
