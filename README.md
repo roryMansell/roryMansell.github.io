@@ -14,6 +14,10 @@ This is my portfolio landing page, hosted with GitHub Pages:
 - **Conway’s Game of Life** — Interactive simulation built with Python & Pygame. Packaged as a Windows executable.  
   🔗 [Download (latest release)](https://github.com/roryMansell/life-game/releases/latest) · [Code](https://github.com/roryMansell/life-game)
 
+- **Voice Pokédex** — Offline Pokédex app with voice search, type matchups, and a team ranking system.  
+  Built with HTML/JS, packaged as a desktop app with Electron.  
+  🔗 [Download (latest release)](https://github.com/roryMansell/po-go-battle-assistant/releases/latest) · [Code](https://github.com/roryMansell/po-go-battle-assistant)
+
 ---
 
 ✉️ [Email](mailto:rory.mansell@hotmail.co.uk) · 💼 [LinkedIn](https://www.linkedin.com/in/rory-mansell-5b7199130) · 🐙 [GitHub](https://github.com/roryMansell)
